@@ -1,0 +1,4 @@
+echo "hello trigger" >> test.txt
+git add test.txt
+git commit -m "Testing auto trigger"
+git push origin main
