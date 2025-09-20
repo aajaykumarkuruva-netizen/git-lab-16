@@ -1,6 +1,7 @@
-ghvchjdbjbk
-jbjjjnij
- fe bfbfbjbgjdhgkbekgbkj nbnkbnfknkjnklgjkn'jkj\
-hbgwbjgbejkgjkebjbjehkehjrwhgrjrhwjkjkw
-tjgejkhgjkehoejlkjklej
-tjhejhtkjekjt
+
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building...'
